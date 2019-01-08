@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Gastronomia</title>
+    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <script src="JavaScript/GaleriaPrin.js"></script>
+    <!-- GALERIA -->
+    <link href="Estilos/GaleriaGastronomia.css" rel="stylesheet" type="text/css">
+    <!-- FIN Galeria -->
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px arial black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "#f9c37c"; 
+					  ctx.fillText('VI CONCURSO DE FOTOGRAFÍA EN JEREZ DE LA FRONTERA', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Información sobre el evento</a></li>
+            <li><a href="Fotografias.html">Fotografías</a></li>
+            <li><a href="Fotografos.html">Fotográfos</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section>
+            <article>
+              <aside id="critica">Gastronomía</aside>
+              <br>
+              <p>Al igual que en el resto de la provincia de Cádiz y otras
+                tierras andaluzas, los pucheros, guisos y ollas son toda una
+                institución en Jerez de la Frontera. <br>
+                Buenos ejemplos son el menudo con garbanzos o el puchero
+                andaluz, que se prepara también con garbanzos, distintas carnes,
+                verduras y hortalizas. Pero si hay un plato delicioso, sencillo
+                y de los llamados "baratos" es el clásico ajo caliente de Jerez.
+                Lo más habitual es consumir esta elaboración en forma de tapa o
+                de ración, en las ventas que salpican los caminos y carreteras.
+                Se trata de una especie de sopa de ajo compacta, donde los
+                ingredientes principales son el pan del día anterior, el ajo, el
+                aceite de oliva, los pimientos verdes y el tomate. Hoy día se le
+                suelen añadir también embutidos o tocino, aunque la receta
+                original no los llevaba; el ajo caliente se consume
+                tradicionalmente una copita de fino, lo que, según dicen,
+                incrementa su sabor. Los vinos de Jerez se utilizan a menudo en
+                la cocina de la zona para las distintas recetas; un buen ejemplo
+                es el de los riñones al jerez, pero también el de los
+                alcauciles, que es el nombre que allí reciben las clásicas
+                alcachofas. <br>
+                <br>
+                El pescado también es un ingrediente clásico en la cocina
+                jerezana, lo cual es lógico teniendo en cuenta la cercanía de
+                las costas atlánticas, que surten a la provincia de Cádiz de
+                deliciosas especies. Sin duda, el pescaíto frito es uno de los
+                platos estrella en tascas y bares, donde se consume
+                habitualmente como ración. Pero también están deliciosas las
+                tortillitas de camarones y los pescados a la brasa o la parrilla
+                como urtas, sargos, mero, salmonetes... Sin olvidarnos del
+                excepcional atún de almadraba, y de estupendos mariscos como el
+                bogavante, los langostinos de Sanlúcar de Barrameda, la gamba
+                que llega de la cercana Huelva, las coquinas, los chocos
+                (calamares) con papas y muchas otras exquisiteces marinas. <br>
+                <br>
+              </p>
+              <div id="galeriaGastronomia">
+                <div id="galeria_imagen"> <img id="imgGaleria" src="Imagenes/Gastronomia/ajo.jpg"></div>
+                <div id="galeria_miniaturas"> <img class="miniatura" onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/ajo.jpg"> <img class="miniatura"
+
+                    onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/alcauciles.jpg"> <img class="miniatura"
+
+                    onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/brandyjerez.jpg"> <img class="miniatura"
+
+                    onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/chacina.jpg"> <img class="miniatura"
+
+                    onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/papasconchoco.jpg"> <img class="miniatura"
+
+                    onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/pescaitofrito.jpg"> <img class="miniatura"
+
+                    onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/puchero.jpg"> <img class="miniatura"
+
+                    onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                    src="Imagenes/Gastronomia/tiopepe.jpg"> </div>
+              </div>
+              <br>
+              <p>Pasando ya al recetario de carnes, hay que señalar que en la
+                serranía y las tierras jerezanas la carne de cerdo es parte
+                fundamental del recetario. La matanza se realiza habitualmente
+                en los cortijos desde tiempos inmemoriales, de la cual salen
+                elaboraciones exquisitas en forma de embutidos (o chacinas en el
+                hablar de la tierra). La zona de los Alcornocales, además, es
+                también territorio de caza y consumo de venado. <br>
+                Pero si hay algo que destaca en la producción gastronómica
+                jerezana son sin duda sus vinos. Ya en tiempos de los fenicios
+                se cultivaba la vid en tierras de Jerez de la Frontera, e
+                incluso durante los siglos de dominación árabe se siguieron
+                elaborando y consumiendo los caldos. Sin embargo, es con la
+                Reconquista cuando se lanza del todo la producción y difusión
+                del vino de Jerez; su llegada a Inglaterra lo puso allí de moda,
+                hasta nuestros días. La Denominación de Origen
+                Jerez-Xérès-Sherry data de la primera mitad del siglo XX. Además
+                del vino de Jerez, también se consumen con profusión los frescos
+                y deliciosos finos, el brandy de Jerez y el excelente vinagre
+                que se elabora a partir de los caldos.<br>
+              </p>
+            </article>
+          </section>
+          <aside id="submenu">
+            <ul>
+              <li><a href="CiudadGastronomia.html">Gastronomía</a></li>
+              <li><a href="CiudadMonumentos.html">Lugares Monumentales e
+                  Históricos</a></li>
+            </ul>
+            <!-- Twitter --> <a class="twitter-timeline" width="200" height="400"
+
+              href="https://twitter.com/concurfotojerez">Noticias del concurso</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </aside>
+        </div>
+      </div>
+      <footer>
+        <div id="redesSociales"> <a style="float:right; padding: 8px" href="http://www.uca.es/es/">
+            <img alt="camara" src="Imagenes/camara.gif" <="" a="" height="60" width="80">
+          </a><a style="color:#FFFFFF; text-decoration: none" href="https://twitter.com/JerezCine">Síguenos
+            en Twitter</a> <img src="Imagenes/iconoTwitter.jpg" height="20" width="20">
+          <br>
+          <br>
+          <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+            nosotros: concursofotografiajerez@gmail.com</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

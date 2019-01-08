@@ -1,0 +1,68 @@
+/*
+ * Sprite
+ */
+
+#sprite ul{
+	text-decoration: none;
+ 	list-style-type: none;
+   	text-align: center;
+ 	display: inline;
+}
+
+#sprite li a {
+   float: left;
+   /*font-weight: bold; */
+   text-shadow: 1px 1px 1px black; 
+   color: #980000;
+   text-decoration: none;
+   display: inline;
+   margin-left: 10px;
+   margin-bottom: 10px; 
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-weight: 500;
+   font-size: 30px;
+   color: #980000;
+}
+
+#sprite li a:hover{
+	color: white;
+}
+
+#sprite a{
+  display: block;
+  background-image: url("../Imagenes/spriteFotos.png");
+  width : 990px;
+  height: 660px;
+}
+
+#arquitectura{
+  background-position: 0 0;
+}
+
+#arquitectura:hover{
+  background-position: -990px 0;
+}
+
+#reportaje{
+  background-position: 0 -660px;
+}
+
+#reportaje:hover{
+  background-position: -990px -660px;
+}
+
+#retrato{
+  background-position:  0 -1320px;
+}
+
+#retrato:hover{
+  background-position: -990px -1320px;
+}
+
+#paisaje{
+  background-position: 0 -1980px;
+}
+
+#paisaje:hover{
+  background-position: -990px -1980px;
+}

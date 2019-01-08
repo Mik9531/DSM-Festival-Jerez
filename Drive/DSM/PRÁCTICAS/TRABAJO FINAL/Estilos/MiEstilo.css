@@ -1,0 +1,434 @@
+* {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+canvas {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+}
+
+header, footer, section, article, aside, nav {
+  display: block;
+}
+
+header {
+  background-image: url("../Imagenes/fondocanvas.png");
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-right: 0px;
+}
+
+article {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 700px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #4b4343;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  height: 100px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: black;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
+body {
+  width: 100%;
+  display: -webkit-box;
+  -moz-box-pack: center;
+  -webkit-box-pack: center;
+  box-pack: center;
+  background-image: url("../Imagenes/fondo.jpg");
+}
+
+#CuadroPagina {
+  padding-top: 9px;
+  padding-right: 21px;
+  padding-bottom: 9px;
+  padding-left: 9px;
+  width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+#pagina {
+  max-width: 1100px;
+  display: -webkit-box;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+}
+
+#contenidos {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  display: -webkit-box;
+  -moz-box-orient: horizontal;
+  -webkit-box-orient: horizontal;
+  box-orient: horizontal;
+}
+
+section {
+  -moz-box-flex: 3;
+  -webkit-box-flex: 3;
+  box-flex: 3;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: justify;
+}
+
+aside {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+#critica1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #eaa74f;
+}
+
+#critica2 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #eaa74f;
+}
+
+#critica {
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #ed8d07;
+}
+
+#mapa {
+  width: 600px;
+  height: 485px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: black;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: black;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: black;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a {
+  font-family: "Source Sans Pro", comic, sans;
+  font-size: 18px;
+  color: white;
+}
+
+#cssmenu::before, #cssmenu::after, #cssmenu ul::before, #cssmenu ul::after {
+  content: "";
+  display: table;
+}
+
+#cssmenu::after, #cssmenu ul::after {
+  clear: both;
+}
+
+#cssmenu ul {
+  background-color: black;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  width: 100%;
+}
+
+#cssmenu ul li {
+  float: left;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+#cssmenu ul li a {
+  display: block;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 220px;
+  position: relative;
+}
+
+#cssmenu ul li a:hover {
+  color: white;
+  background-color: #ffc78f;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+#submenu ul {
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+  vertical-align: baseline;
+  line-height: 1;
+  display: block;
+  margin-left: 10px;
+  margin-top: 47px;
+  width: 160px;
+}
+
+#submenu ul li a {
+  display: block;
+  position: relative;
+  border-top-width: 1px;
+  border-top-color: #3a3a3a;
+  border-bottom-width: 1px;
+  border-bottom-color: #1b1b1b;
+  padding-top: 11px;
+  padding-right: 20px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  font-family: "Source Sans Pro", Comic Sans;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  background-color: Black;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+#submenu > ul li:first-child > a {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: none;
+  border-top-color: initial;
+}
+
+#submenu > ul li:last-child > a {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: none;
+  border-bottom-color: initial;
+}
+
+#submenu ul li a:hover, #submenu ul li:hover a {
+  color: white;
+  background-color: #f6b2b2;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+#submenu {
+  text-align: center;
+  margin-top: 50px;
+}
+
+td {
+  text-align: justify;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #980000;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #980000;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #980000;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #980000;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+table {
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #980000;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #980000;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #980000;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #980000;
+  background-color: #980000;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  color: #980000;
+}
+
+.tituloTabla {
+  color: black;
+}
+
+#imginteriorPalacio {
+  float: right;
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+#imgPalacio {
+  width: 700px;
+  height: 400px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+.twitter-timeline {
+  margin-top: 60px;
+}
+
+#redesSociales {
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+
+.flex-caption {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+
+.flex-caption {
+  width: 96%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  color: white;
+text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#Siguenos:hover {
+  text-transform: uppercase;
+}
+
+#Siguenos {
+  text-decoration: underline;
+}
+
+#menu:hover {
+  text-transform: uppercase;
+}
+

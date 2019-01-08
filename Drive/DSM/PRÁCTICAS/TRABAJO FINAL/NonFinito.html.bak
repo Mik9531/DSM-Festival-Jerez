@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>NonFinito</title>
+    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px arial black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "#f9c37c"; 
+					  ctx.fillText('VI CONCURSO DE FOTOGRAFÍA EN JEREZ DE LA FRONTERA', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Información sobre el evento</a></li>
+            <li><a href="Fotografias.html">Fotografías</a></li>
+            <li><a href="Fotografos.html">Fotográfos</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section> <br>
+            <br>
+            <section class="container_12">
+              <article class="grid_3">
+                <div class="grid_7 omega"><img alt="Non Finito" src="Imagenes/Fotografias/NonFinito.jpg"
+
+                    height="235" width="175"></div>
+                <span style="color: black;"> </span></article>
+              <br>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="tituloTabla">Título:</td>
+                    <td>Non Finito</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Año:</td>
+                    <td>2014</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Fotografo:</td>
+                    <td>Amelie Labourdette</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Estilo fotográfico:</td>
+                    <td>Arquitectura</td>
+                  </tr>
+               </tbody>
+              </table>
+            </section>
+            <span style="color: black;">
+
+ 							<br class="clear">
+              <br>
+              <aside id="critica">Crítica</aside>
+              <br>
+              Estas fotográficas preguntas de la serie, la noción de lo incompleto, de "non finito" 1 iniciada por Miguel Ángel, como un potencial "devenir-otro".
+							Junto con el deseo de documentar un momento, yo estaba interesado en la capacidad de estas imágenes para escapar de una primera percepción demasiado obvio.
+							Entre el documental y la ficción, este proyecto revela paisajes manifiestos y construcciones inacabadas espectrales, esqueletos de hormigón flotantes en un estado de en medio, un estado indefinido.<br>
+              Los principales proyectos de esqueletos de hormigón, se mantuvieron edificios sin terminar, sin resolver los patrones recurrentes de nuestro tiempo, me parecen reflejos del desarrollo de los sistemas socio-económicos que producen constantemente el colapso, sino también como espacios y formas no definidas que tienen, debido a su carácter incompleto, un "lateral posible", un "devenir-otro" que el uso para el que el proyecto inicial se dedican ellos.<br>
+							Esta serie fotográfica trata de imaginar un poco de "arqueología" de nuestra historia reciente afectados por trastornos tanto ideológico, político, económico. Estos "restos" no son, sin embargo, sólo tiene el estigma de esta historia reciente: parece que se vuelvan demasiado debido a su carácter incompleto, espacios intersticiales de indeterminación, adecuada para una misión fotográfica explorar las posibilidades de singular reinversión del mundo...<br>
+              Es importante tener en cuenta que en esta serie no hay valores de fotografías no se hace mención del lugar o de la denominación del edificio fotografiado. De hecho, los títulos de la pobreza de información pretende conferir de facto otra función, que animan al espectador a otra pregunta sobre la identidad de estas construcciones.<br>
+              <br>
+              <br class="clear">               
+            </span></section>
+          <aside id="submenu">
+            <ul>
+              <li><a href="Pool.html">Pool</a></li>
+              <li><a href="TheTangDynastyTomb.html">The Tang Dynasty Tomb</a></li>
+              <li><a href="NonFinito.html">Non Finito</a></li>
+            </ul>
+            <!-- Twitter --> <a class="twitter-timeline" width="200" height="400"
+
+              href="https://twitter.com/concurfotojerez">Noticias del concurso</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </aside>
+        </div>
+      </div>
+      <footer>
+        <div id="redesSociales"> <a style="float:right; padding: 8px" href="http://www.uca.es/es/">
+            <img alt="camara" src="Imagenes/camara.gif" <="" a="" height="60" width="80">
+          </a><a style="color:#FFFFFF; text-decoration: none" href="https://twitter.com/concurfotojerez">Síguenos
+            en Twitter</a> <img src="Imagenes/iconoTwitter.jpg" height="20" width="20">
+          <br>
+          <br>
+          <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+            nosotros: concursofotografiajerez@gmail.com</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Monumentos</title>
+    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <!-- GALERIA -->
+    <script src="JavaScript/GaleriaPrin.js"></script>
+    <!-- FIN Galeria -->
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px arial black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "#f9c37c"; 
+					  ctx.fillText('VI CONCURSO DE FOTOGRAFÍA EN JEREZ DE LA FRONTERA', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Información sobre el evento</a></li>
+            <li><a href="Fotografias.html">Fotografías</a></li>
+            <li><a href="Fotografos.html">Fotográfos</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section>
+            <article>
+              <aside id="critica">Historia</aside>
+              <p>Pocos lugares en España gozan de un reconocimiento
+                internacional como el que disfruta Jerez. Aún a riesgo de caer
+                en tantos tópicos como la han hecho famosa, hemos de decir que
+                Jerez, además de su vino, también es el caballo, es el flamenco,
+                el toro, el deporte, los grandes eventos, el circuito de
+                velocidad, y tantos otros elementos cualitativos que son capaces
+                de definir su singular personalidad.<br>
+                Jerez también es historia y legado monumental.<br>
+                De orígenes aureolados por la mítica civilización tartésica que
+                prosperó en las inmediaciones de la costa suratlántica andaluza,
+                sabemos de la existencia de una Xera fenicia, luego intensamente
+                romanizada con el nombre de Ceret, y de una Scherisch musulmana
+                que alcanzaría gran protagonismo económico y militar hasta su
+                caída en manos cristianas en 1264.<br>
+                La herencia de tan largo devenir y de las diversas culturas que
+                se asentaron en Jerez a lo largo de los siglos se nos presentan
+                en vestigios que aún laten con viveza por la ciudad y su
+                entorno.<br>
+                <br>
+              </p>
+              <aside id="critica">Alcázar</aside>
+              <img style="float:right" src="Imagenes/Monumentos/alcazar.jpg" height="500"
+
+                width="700"> <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <p>El Alcázar es el monumento cívicomilitar más importante y
+                antiguo de Jerez. De planta cuadrada, esta construcción de
+                origen almohade, levantada en el siglo XII, fue residencia de
+                los califas sevillanos y sede de los gobernadores cristianos
+                tras la caída de la ciudad en manos de Alfonso X. Entre sus
+                dependencias, magníficamente restauradas, se encuentran la
+                mezquita cristianizada bajo la advocación de Santa María la
+                Real, los baños árabes y los cuidados jardines. En la fisonomía
+                del Alcázar jerezano destacan su característica torre octogonal,
+                la torre del homenaje y la de Ponce de León, esta última añadida
+                en época muy posterior a la primitiva construcción.<br>
+                <br>
+              </p>
+              <aside id="critica">Catedral</aside>
+              <img style="float:right" src="Imagenes/Monumentos/catedral.jpg" height="500"
+
+                width="700"> <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <p>La antigua Colegiata, erigida en sede catedralicia de la
+                Diócesis de AsidoniaJerez por el Papa Juan Pablo II, es una
+                construcción barroca levantada entre los años 1695 y 1778 sobre
+                la que fue primitiva iglesia del Salvador que, a su vez, ocupó
+                el solar de la principal mezquita que existió en la Jerez
+                musulmana. En su interior son interesantes sus capillas de las
+                Ánimas, la dedicada al Cristo de la Viga, la de la Inmaculada y
+                la del Sagrario. Entre las obras de arte que se conservan en
+                esta catedral destacan el cuadro “La Virgen de niña” de Zurbarán
+                y las pinturas debidas a Juan Rodríguez “El Tahonero”. La torre
+                de ascendencia mudéjar, dispuesta de forma independiente al
+                resto del edificio fue, posiblemente, minarete de la mezquita
+                cristianizada.<br>
+                <br>
+              </p>
+              <aside id="critica">Bodegas</aside>
+              <img style="float:right" src="Imagenes/Monumentos/bodega.jpeg" height="500"
+
+                width="700"> <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <p>Una de las señas de identidad de Jerez de la Frontera es el
+                vino debido a la gran cantidad de bodegas de la zona. Estas
+                proliferan desde los tiempos de los fenicios en los que
+                cultivaba la vid en estas tierras, e incluso, durante los siglos
+                de dominación árabe se siguieron elaborando y consumiendo los
+                caldos. Sin embargo, es con la Reconquista cuando se lanza del
+                todo la producción y difusión del vino de Jerez; su llegada a
+                Inglaterra lo puso allí de moda, hasta nuestros días. La
+                Denominación de Origen Jerez-Xérès-Sherry data de la primera
+                mitad del siglo XX. Además del vino de Jerez, también se
+                consumen con profusión los frescos y deliciosos finos, el brandy
+                de Jerez y el excelente vinagre que se elabora a partir de los
+                caldos.<br>
+              </p>
+            </article>
+          </section>
+          <aside id="submenu">
+            <ul>
+              <li><a href="CiudadGastronomia.html">Gastronomía</a></li>
+              <li><a href="CiudadMonumentos.html">Lugares Monumentales e
+                  Históricos</a></li>
+            </ul>
+            <!-- Twitter --> <a class="twitter-timeline" width="200" height="400"
+
+              href="https://twitter.com/concurfotojerez">Noticias del concurso</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </aside>
+        </div>
+      </div>
+      <footer>
+        <div id="redesSociales"> <a style="float:right; padding: 8px" href="http://www.uca.es/es/">
+            <img alt="camara" src="Imagenes/camara.gif" <="" a="" height="60" width="80">
+          </a><a style="color:#FFFFFF; text-decoration: none" href="https://twitter.com/JerezCine">Síguenos
+            en Twitter</a> <img src="Imagenes/iconoTwitter.jpg" height="20" width="20">
+          <br>
+          <br>
+          <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+            nosotros: concursofotografiajerez@gmail.com</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

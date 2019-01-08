@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>MujeresSinEstado</title>
+    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px arial black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "#f9c37c"; 
+					  ctx.fillText('VI CONCURSO DE FOTOGRAFÍA EN JEREZ DE LA FRONTERA', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Información sobre el evento</a></li>
+            <li><a href="Fotografias.html">Fotografías</a></li>
+            <li><a href="Fotografos.html">Fotográfos</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section> <br>
+            <br>
+            <section class="container_12">
+              <article class="grid_3">
+                <div class="grid_7 omega"><img alt="Mujeres sin Estado" src="Imagenes/Fotografias/MujeresSinEstado.jpg"
+
+                    height="235" width="175"></div>
+                <span style="color: black;"> </span></article>
+              <br>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="tituloTabla">Título:</td>
+                    <td>Stateless Women</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Año:</td>
+                    <td>2016</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Fotografo:</td>
+                    <td>Fauzan Ijazah</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Estilo fotográfico:</td>
+                    <td>Retrato</td>
+                  </tr>
+               </tbody>
+              </table>
+            </section>
+            <span style="color: black;">  Indonesia, 2nd Place, Professional, Portraiture, 2016, Sony World Photography Awards
+
+ 							<br class="clear">
+              <br>
+              <aside id="critica">Crítica</aside>
+              <br>
+              En mayo de 2015, cientos de refugiados rohingya de Myanmar, la mayoría mujeres y niños, aterrizaron en Aceh, Indonesia tras contrabandistas los abandonaron en el mar. Algunos llegaron a la tierra por su cuenta, pero la mayoría fueron rescatados por pescadores de Aceh.<br>
+              El gobierno de Indonesia, las ONG y las comunidades locales han dado asistencia humanitaria a estos refugiados desde entonces.<br>
+              Las más vulnerables son las mujeres rohingya, perseguidos en su país de origen y ahora un blanco fácil para la explotación y el asalto. <br>
+              Una antigua fábrica de papel está protegiendo a cientos de solicitantes de asilo Rohingya pero han pasado meses y hay preguntas sin respuesta sobre una solución a largo plazo.<br>
+              ¿Estas mujeres no tienen estado, pero en caso de que tengan se sienten con esperanza?
+              <br>
+              <br class="clear">               
+            </span></section>
+          <aside id="submenu">
+            <ul>
+              <li><a href="EbolaSurvivors.html">Ebola Survivors</a></li>
+              <li><a href="BeatifulMen.html">Beatiful Men</a></li>
+              <li><a href="MujeresSinEstado.html">Mujeres sin Estado</a></li>
+            </ul>
+            <!-- Twitter --> <a class="twitter-timeline" width="200" height="400"
+
+              href="https://twitter.com/concurfotojerez">Noticias del concurso</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </aside>
+        </div>
+      </div>
+      <footer>
+        <div id="redesSociales"> <a style="float:right; padding: 8px" href="http://www.uca.es/es/">
+            <img alt="camara" src="Imagenes/camara.gif" <="" a="" height="60" width="80">
+          </a><a style="color:#FFFFFF; text-decoration: none" href="https://twitter.com/JerezCine">Síguenos
+            en Twitter</a> <img src="Imagenes/iconoTwitter.jpg" height="20" width="20">
+          <br>
+          <br>
+          <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+            nosotros: concursofotografiajerez@gmail.com</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

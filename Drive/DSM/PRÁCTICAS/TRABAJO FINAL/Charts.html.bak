@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <script src="JavaScript/Chart.min.js"></script>
+    <script src="JavaScript/legend.js"></script>
+    <script src="JavaScript/misgraficos.js"></script>
+    <link href="Estilos/leyendas.css" rel="stylesheet" type="text/css">
+    <title>Charts</title>
+  </head>
+  <body onload="dibujar()">
+    <h1>Ingresos de las ventas por estilos fotográficos durante el último año (mill. €) </h1>
+    <canvas id="Ingresos" width="600" height="400"></canvas>
+    <div id="leyendaGI"> </div>
+    <h1>Porcentaje de fotos realizadas en España de los distintos estilos fotográficos</h1>
+    <canvas id="Ventas" width="600" height="400"></canvas>
+    <div id="leyendaGV"> </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Steve McCurry</title>
+    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <!-- GALERIA -->
+    <link href="Estilos/GaleriaGastronomia.css" rel="stylesheet" type="text/css">
+    <!-- FIN Galeria -->
+    <!-- Video -->
+    <link href="Estilos/video.css" rel="stylesheet" type="text/css">
+    <script src="JavaScript/video.js" type="application/x-javascript"></script>
+    <!-- FIN Video -->
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px arial black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "#f9c37c"; 
+					  ctx.fillText('VI CONCURSO DE FOTOGRAFÍA EN JEREZ DE LA FRONTERA', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Información sobre el evento</a></li>
+            <li><a href="Fotografias.html">Fotografías</a></li>
+            <li><a href="Fotografos.html">Fotográfos</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section> <br>
+            <br>
+            <span style="color: black;">
+              <aside id="critica">Steve McCurry</aside>
+              Steve McCurry (24 de febrero de 1950) es un fotoperiodista estadounidense, mundialmente conocido por ser el autor de la fotografía La niña afgana, aparecida en la revista National Geographic en 1985.<br>
+              Su carrera de fotógrafo comenzó con la Guerra de Afganistán (1978-1992). También ha cubierto otros conflictos internacionales como la guerra entre Iraq e Irán o la Guerra del Golfo.<br>
+              Steve McCurry comenta respecto de su trabajo (cita del libro de Editorial Phaidon) "En el retrato espero el momento en el que la persona se halla desprevenida, cuando afloran en su cara la esencia de su alma y de sus experiencias.... Si encuentro a la persona o el tema oportuno, en ocasiones regreso una, dos, o hasta media docena de veces, siempre esperando el instante justo. A diferencia del escritor, en mi trabajo, una vez que tengo hechas las maletas, ya no existe otra oportunidad para un nuevo esbozo. O tengo la foto o no. Esto es lo que guía y obsesiona al fotógrafo profesional, el ahora o nunca. Para mí, los retratos de este libro transmiten un deseo de relación humana, un deseo tan fuerte que gente que sabe que no me volverá a ver nunca más se abre a la cámara, esperando que alguien lo observe al otro lado, alguien que ría o sufra con ella."<br>
+              <br class="clear">
+              <br>
+              <span style="color: black;"> Aquí os lo mostramos a él y a
+                algunas de sus famosas fotografías.<br>
+                <section>
+                  <section class="container_12">
+                    <article class="grid_7">
+                      <div class="grid_9 omega">
+                        <div id="galeriaGastronomia">
+                          <div id="galeria_imagen"> <img id="imgGaleria" src="Imagenes/Fotografos/Steve.jpg"></div>
+                          <div id="galeria_miniaturas"> <img class="miniatura"
+
+                              onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                              src="Imagenes/Fotografos/Steve.jpg"> <img class="miniatura"
+
+                              onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                              src="Imagenes/Fotografos/Steve2.jpg"> <img class="miniatura"
+
+                              onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                              src="Imagenes/Fotografos/Steve3.jpg"> <img class="miniatura"
+
+                              onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                              src="Imagenes/Fotografos/Steve5.jpg"> <img class="miniatura"
+
+                              onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
+
+                              src="Imagenes/Fotografos/Steve6.jpg"> </div> 
+                        </div>
+                      </div>
+                      <span style="color: black;"> </span></article>
+                    <br>
+                    <aside id="critica">Su fotografía más reconocida</aside>
+                    Su foto más reconocida es "La niña afgana", hecha de una anteriormente desconocida refugiada afgana. La imagen en sí misma fue considerada como "la más reconocida" en la historia de la revista National Geographic y su cara se convirtió en famosa como portada en junio de 1985. La foto también ha sido ampliamente usada en panfletos, posters y calendarios de Amnistía Internacional. La identidad de la "niña afgana" fue desconocida durante al menos 15 años hasta que McCurry y un equipo de National Geographic localizaron a la mujer, Sharbat Gula, en 2002.<br>
+                  	Aunque McCurry fotografía tanto en digital como en película, su preferencia es la película. Eastman Kodak permitió a McCurry fotografiar con el último rollo producido de Kodachrome, que fue procesado en julio de 2010 por Dwayne's Photo en Parsons, Kansas (EEUU) y cuyas fotografías se quedarán en el George Eastman House. La mayoría de las fotos, excluyendo algunos duplicados, han sido publicados en internet por la revista Vanity Fair. En 2001 participó en una exposición de arte organizada por la agencia Leo Burnett con el pintor italiano Umberto Pettinicchio, en Lausana, en Suiza...<br>
+                  <br class="clear">
+                  </section>
+                </section>
+              </span></span></section>
+        </div>
+      </div>
+      <footer>
+        <div id="redesSociales"> <a style="float:right; padding: 8px" href="http://www.uca.es/es/">
+            <img alt="camara" src="Imagenes/camara.gif" <="" a="" height="60" width="80">
+          </a><a style="color:#FFFFFF; text-decoration: none" href="https://twitter.com/concurfotojerez">Síguenos
+            en Twitter</a> <img src="Imagenes/iconoTwitter.jpg" height="20" width="20">
+          <br>
+          <br>
+          <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+            nosotros: concursofotografiajerez@gmail.com</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>UnderwaterGrace</title>
+    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px arial black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "#f9c37c"; 
+					  ctx.fillText('VI CONCURSO DE FOTOGRAFÍA EN JEREZ DE LA FRONTERA', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Información sobre el evento</a></li>
+            <li><a href="Fotografias.html">Fotografías</a></li>
+            <li><a href="Fotografos.html">Fotográfos</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section> <br>
+            <br>
+            <section class="container_12">
+              <article class="grid_3">
+                <div class="grid_7 omega"><img alt="Underwater Grace" src="Imagenes/Fotografias/UnderwaterGrace.jpg"
+
+                    height="235" width="175"></div>
+                <span style="color: black;"> </span></article>
+              <br>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="tituloTabla">Título:</td>
+                    <td>Underwater Grace</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Año:</td>
+                    <td>2015</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Fotografo:</td>
+                    <td>Jonathan Yeap Chin Tiong</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Estilo fotográfico:</td>
+                    <td>Reportaje</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <span style="color: black;"> JONATHAN YEAP CHIN TIONG/Singapore, 3rd
+              Place, Professional, Sport, 2015 Sony World Photography Awards <br
+
+                class="clear">
+              <br>
+              <aside id="critica">Crítica</aside>
+              <br>
+              Jonathan Yeap Chin Tiong, de Singapur, capturó a un equipo de
+              natación sincronizada para el profesional, la categoría de
+              deportes.<br>
+              Reportaje a estas chicas:<br>
+              Estamos de acuerdo en que todos los deportes son sacrificados.
+              Pero la natación sincronizada, ahí en el silencio de la piscina,
+              es uno de los más duros. Reconocen los técnicos que para llegar a
+              ser una sirena, la niña, porque el trabajo empieza desde muy
+              joven, tiene que poseer unas condiciones físicas especiales en el
+              agua y una gran pasión por esta modalidad deportiva.<br>
+              Esas chicas, las “Reinas del Combo” como ya se les conoce, son un
+              grupo de mujeres cuyas edades oscilan entre los 18 y 25 años. Unas
+              mujeres que se levantan todos los días con la ilusión de crecer
+              como personas, como estudiantes y que al llegar la tarde se
+              sumergen en el agua para hacer su deporte favorito. Alba González,
+              doctora en Medicina, es la veterana del grupo: “Este es un deporte
+              que requiere mucho sacrificio. Son cinco o seis horas dirías para
+              la alcanzar el nivel de perfección que se exige, con
+              entrenamientos en seco y en la piscina. Pero bueno, si te gusta,
+              compensa”.<br>
+              Cuando hablamos de natación sincronizada, estamos hablando de
+              esfuerzo, dedicación, saber nadar muy bien, de control mental, de
+              unas condiciones físicas especiales, de llevar, si no una dieta,
+              si un control con alimentación y mucho esfuerzo y cariño a este
+              deporte.<br>
+              Ciencias de la Actividad Física y el Deporte, “ este es un deporte
+              que requiere grandes condiciones físicas, mucha disciplina, pero
+              por encima de todo hay que vivirlo con pasión, hablamos de una
+              modalidad que lleva baile y música. Hay que sentirlo
+              profundamente”.<br>
+              <br>
+              <br class="clear">
+            </span></section>
+          <aside id="submenu">
+            <ul>
+              <li><a href="MatrimonioInfantil.html">Matrimonio Infantil</a></li>
+              <li><a href="UnderwaterGrace.html">Underwater Grace</a></li>
+              <li><a href="NonFinito.html">Non Finito</a></li>
+            </ul>
+            <!-- Twitter --> <a class="twitter-timeline" width="200" height="400"
+
+              href="https://twitter.com/concurfotojerez">Noticias del concurso</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </aside>
+        </div>
+      </div>
+      <footer>
+        <div id="redesSociales"> <a style="float:right; padding: 8px" href="http://www.uca.es/es/">
+            <img alt="camara" src="Imagenes/camara.gif" <="" a="" height="60" width="80">
+          </a><a style="color:#FFFFFF; text-decoration: none" href="https://twitter.com/concurfotojerez">Síguenos
+            en Twitter</a> <img src="Imagenes/iconoTwitter.jpg" height="20" width="20">
+          <br>
+          <br>
+          <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+            nosotros: concursofotografiajerez@gmail.com</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

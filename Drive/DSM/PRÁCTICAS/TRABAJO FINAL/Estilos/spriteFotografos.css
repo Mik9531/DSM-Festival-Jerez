@@ -1,0 +1,84 @@
+/*
+ * Sprite Directores
+ */
+
+#sprite ul{
+	text-decoration: none;
+ 	list-style-type: none;
+   	text-align: center;
+ 	display: inline;
+}
+
+#sprite li a {
+   float: left;
+   /*font-weight: bold; */
+   text-shadow: 1px 1px 1px black; 
+   color: #980000;
+   text-decoration: none;
+   display: inline;
+   margin-left: 10px;
+   margin-bottom: 10px; 
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-weight: 500;
+   font-size: 30px;
+   color: #980000;
+}
+
+#sprite li a:hover{
+	color: white;
+}
+
+#sprite a{
+  display: block;
+  background-image: url("../Imagenes/spriteFotografos.png");
+  width : 218px;
+  height: 222px;
+}
+
+#AnnieL{
+  background-position: 0 0;
+}
+
+#AnnieL:hover{
+  background-position: -218px 0;
+}
+
+#DavidLC{
+  background-position: 0 -222px;
+}
+
+#DavidLC:hover{
+  background-position: -218px -222px;
+}
+
+#JeremyC{
+  background-position: 0 -444px;
+}
+
+#JeremyC:hover{
+  background-position: -218px -444px;
+}
+
+#MarioT{
+  background-position: 0 -666px;
+}
+
+#MarioT:hover{
+  background-position: -218px -666px;
+}
+
+#MichaelK{
+  background-position: 0 -888px;
+}
+
+#MichaelK:hover{
+  background-position: -218px -888px;
+}
+
+#SteveMc{
+  background-position: 0 -1110px;
+}
+
+#SteveMc:hover{
+  background-position: -218px -1110px;
+}
