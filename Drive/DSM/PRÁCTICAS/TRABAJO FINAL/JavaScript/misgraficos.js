@@ -1,18 +1,18 @@
 /* Gráficos */
 
 function dibujar(){
-    var ctx1 = document.getElementById("Ingresos").getContext("2d");
-    var miGraficoIngresos = new Chart(ctx1).Line(datosIngresos,opcionesIngresos);
+    var ctx1 = document.getElementById("grupos").getContext("2d");
+    var miGraficoGrupo = new Chart(ctx1).Line(datosGrupo,opcionesGrupo);
 
-    legend(document.getElementById("leyendaFI"), datosIngresos);
+    legend(document.getElementById("leyendaFI"), datosGrupo);
 
     var ctx2 = document.getElementById("Ventas").getContext("2d");
-    var miGraficoVentas = new Chart(ctx2).Pie(datosVentas,opcionesVentas);
+    var miGraficoVentas = new Chart(ctx2).Pie(datosPremios,opcionesPremios);
     
     legend(document.getElementById("leyendaFV"), datosVentas);
 }
 
-var datosIngresos = {
+var datosGrupo = {
     labels: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
     datasets: [
         {
@@ -23,7 +23,7 @@ var datosIngresos = {
             pointStrokeColor: "Brown",
             pointHighlightFill: "CornflowerBrown",
             pointHighlightStroke: "CornflowerBrown",
-            data: [900, 50, 910, 650, 710, 0, 900, 650, 490, 850, 720, 900]
+            data: [2, 3, 1, 4, 5, 2, 4, 7, 6, 10, 15, 2]
         },
         {
             label: "América",
@@ -33,7 +33,7 @@ var datosIngresos = {
             pointStrokeColor: "Orange",
             pointHighlightFill: "DarkOrange",
             pointHighlightStroke: "DarkOrange",
-            data: [310, 390, 200, 400, 350, 200, 70, 200, 40, 950, 850, 690]
+            data: [10, 7, 8, 7, 9, 11, 2, 5, 3, 7, 1, 6]
         },
         {
             label: "Asia",
@@ -43,7 +43,7 @@ var datosIngresos = {
             pointStrokeColor: "lime",
             pointHighlightFill: "DarkLime",
             pointHighlightStroke: "DarkLime",
-            data: [290, 90, 100, 255, 200, 340, 600, 100, 480, 480, 220, 450]
+            data: [12, 4, 13, 5, 6, 9, 17, 4, 9, 16, 2, 9]
         },
         {
             label: "África",
@@ -53,7 +53,7 @@ var datosIngresos = {
             pointStrokeColor: "blue",
             pointHighlightFill: "DarkBlue",
             pointHighlightStroke: "DarkBlue",
-            data: [190, 50, 10, 190, 180, 230, 400, 80, 300, 470, 100, 390]
+            data: [3, 4, 2, 4, 6, 7, 2, 6, 4, 5, 4, 3]
         },
         {
             label: "Oceanía",
@@ -63,41 +63,41 @@ var datosIngresos = {
             pointStrokeColor: "magenta",
             pointHighlightFill: "DarkMagenta",
             pointHighlightStroke: "DarkMagenta",
-            data: [270, 200, 130, 310, 150, 360, 370, 300, 280, 650, 270, 550]
+            data: [2, 4, 7, 8, 5, 4, 7, 1, 1, 5, 7, 5]
         }
     ]
 };
 
-var datosVentas = [
+var datosPremios = [
     {
         value: 40,
         color:"green",
         highlight: "Darkgreen",
-        label: "Reportaje"
+        label: "Salsa"
     },
     {
         value: 20,
         color:"Magenta",
         highlight: "DarkMagenta",
-        label: "Retrato"
+        label: "Lambada"
     },
     {
         value: 15,
         color:"Yellow",
         highlight: "DarkOrange",
-        label: "Arquitectura"
+        label: "Tango"
     },
     {
         value: 25,
         color:"Cyan",
         highlight: "DarkCyan",
-        label: "Paisaje"
+        label: "Bachata"
     },
 ];
 
-var opcionesIngresos = {
+var opcionesGrupo = {
 
-    ///Boolean - Whether grid lines are shown across the chart
+    //Boolean - Whether grid lines are shown across the chart
     scaleShowGridLines : true,
 
     //String - Colour of the grid lines
@@ -144,7 +144,7 @@ var opcionesIngresos = {
 
 };
 
-var opcionesVentas ={
+var opcionesPremios ={
     //Lógico: ¿Mostrar el contorno de los segmentos?
     segmentShowStroke : true,
     //Color CSS: Color del contorno de los segmentos

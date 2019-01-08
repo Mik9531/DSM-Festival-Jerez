@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es-es">
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Estadisticos</title>
-    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+   <meta content="Miguel Afán Espinosa" name="author">
     <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
     <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
     <script src="JavaScript/Chart.min.js"></script>
@@ -25,20 +25,20 @@
 					  var x = 650;
 					  var y = 50;
 
-					  ctx.font = 'bold 30px arial black';
+					 ctx.font = 'bold 30px Comic Sans black';
 					  ctx.textAlign = 'center';
 					  ctx.textBaseline = 'middle';
-					  ctx.fillStyle = "#f9c37c"; 
-					  ctx.fillText('VI CONCURSO DE FOTOGRAFÍA EN JEREZ DE LA FRONTERA', x, y);
+					  ctx.fillStyle = "white"; 
+					  ctx.fillText('IV FESTIVAL INTERNACIONAL DE BAILES LATINOS CIUDAD DE JEREZ', x, y);
 					</script> </header>
       </a>
       <nav>
         <div id="cssmenu">
-          <ul>
+         <ul>
             <li><a href="Ciudad.html">Ciudad</a></li>
-            <li><a href="InformacionEvento.html">Información sobre el evento</a></li>
-            <li><a href="Fotografias.html">Fotografías</a></li>
-            <li><a href="Fotografos.html">Fotográfos</a></li>
+            <li><a href="InformacionEvento.html">Evento</a></li>
+            <li><a href="Musica.html">Música</a></li>
+            <li><a href="Bailarines.html">Bailarines</a></li>
             <li><a class="last" href="Galeria.html">Galería</a></li>
           </ul>
         </div>
@@ -47,13 +47,11 @@
         <div id="contenidos">
           <section>
             <article>
-              <aside id="critica">Ingresos de las ventas por estilos
-                fotográficos durante el último año (mill. €)</aside>
-              <canvas id="Ingresos" width="600" height="400"></canvas>
+              <aside id="critica">Grupos músicales por el mundo</aside>
+              <canvas id="grupos" width="600" height="400"></canvas>
               <div id="leyendaFI"> </div>
               <br>
-              <aside id="critica">Porcentaje de fotos realizadas en España de
-                los distintos estilos fotográficos</aside>
+              <aside id="critica">Premios obtenidos a nivel mundial por parejas de baile españoles</aside>
               <br>
               <canvas id="Ventas" width="600" height="400"></canvas>
               <div id="leyendaFV"> </div>
@@ -64,22 +62,31 @@
               <li><a href="Estadisticos.html">Estadísticas</a></li>
               <li><a href="Juego.html">Juego</a></li>
             </ul>
-            <!-- Twitter --> <a class="twitter-timeline" width="200" height="400"
-
-              href="https://twitter.com/concurfotojerez">Noticias del concurso</a>
+            <a class="twitter-timeline" width="200" height="400" href="https://twitter.com/FestivalIntern8">Twitter
+              oficial</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </aside>
         </div>
       </div>
-      <footer>
-        <div id="redesSociales"> <a style="float:right; padding: 8px" href="http://www.uca.es/es/">
-            <img alt="camara" src="Imagenes/camara.gif" <="" a="" height="60" width="80">
-          </a><a style="color:#FFFFFF; text-decoration: none" href="https://twitter.com/concurfotojerez">Síguenos
-            en Twitter</a> <img src="Imagenes/iconoTwitter.jpg" height="20" width="20">
-          <br>
-          <br>
-          <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
-            nosotros: concursofotografiajerez@gmail.com</p>
+    <footer><br>
+        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="camara"
+
+              src="Imagenes/baile.gif" <="" a="" height="90" width="90"> </a>
+          <div id="redesSociales2"><a style="float:right; padding: 8px"> </a><a
+
+              style="float:left; padding: 8px"> <img alt="camara" src="Imagenes/baile.gif"
+
+                <="" a="" height="90" width="90"> </a>
+            <center>
+              <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+                nosotros: FestivalInternacionalLatino@gmail.com</p>
+              <br>
+              <a style="color: white;" href="https://twitter.com/festivaljerez"
+
+                id="Siguenos">Síguenos en Twitter</a> <img src="Imagenes/iconoTwitter.jpg"
+
+                height="20" width="20"> </center>
+          </div>
         </div>
       </footer>
     </div>
