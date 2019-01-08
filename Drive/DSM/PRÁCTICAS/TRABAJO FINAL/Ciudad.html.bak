@@ -7,7 +7,8 @@
     <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
     <script src="JavaScript/GaleriaPrin.js"></script>
     <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
       type="text/css">
   </head>
   <body>
@@ -76,8 +77,10 @@
               <aside id="critica">Cómo llegar</aside>
               <article id="mapa"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                &nbsp; &nbsp; &nbsp;&nbsp; <iframe src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d15220.179793118637%212d-6.135238594776186%213d36.682947761156484%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x0d0dc6e84844a39f%3A0x6dac3ef5f3d0ffea%212sJerez+de+la+Frontera%2C+C%C3%A1diz%215e0%213m2%211ses%212ses%214v1453044259729"
-                  style="border:0" allowfullscreen="" height="450" frameborder="0"
+                &nbsp; &nbsp; &nbsp;&nbsp; <iframe src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d15220.179793118637%212d-6.135238594776186%213d36.682947761156484%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x0d0dc6e84844a39f%3A0x6dac3ef5f3d0ffea%212sJerez+de+la+Frontera%2C+C%C3%A1diz%215e0%213m2%211ses%212ses%214v1453044259729"
+
+                  style="border:0" allowfullscreen="" height="450" frameborder="0"
+
                   width="600"></iframe><br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </article>
@@ -89,24 +92,29 @@
               <li><a href="CiudadMonumentos.html">Lugares Monumentales e
                   Históricos</a></li>
             </ul>
-            <!-- Twitter --> <a class="twitter-timeline" width="200" height="400"
-              href="https://twitter.com/FestivalIntern8">Noticias del concurso</a>
+            <a class="twitter-timeline" width="200" height="400" href="https://twitter.com/FestivalIntern8">Twitter
+              oficial</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </aside>
         </div>
       </div>
       <footer>
-        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="camara"
+        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="camara"
+
               src="Imagenes/baile.gif" <="" a="" height="90" width="90"> </a>
-          <div id="redesSociales2"><a style="float:right; padding: 8px"> </a><a
-              style="float:left; padding: 8px"> <img alt="camara" src="Imagenes/baile.gif"
+          <div id="redesSociales2"><a style="float:right; padding: 8px"> </a><a
+
+              style="float:left; padding: 8px"> <img alt="camara" src="Imagenes/baile.gif"
+
                 <="" a="" height="90" width="90"> </a>
             <center>
               <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
                 nosotros: FestivalInternacionalLatino@gmail.com</p>
               <br>
-              <a style="color: white;" href="https://twitter.com/festivaljerez"
-                id="Siguenos">Síguenos en Twitter</a> <img src="Imagenes/iconoTwitter.jpg"
+              <a style="color: white;" href="https://twitter.com/FestivalIntern8"
+
+                id="Siguenos">Síguenos en Twitter</a> <img src="Imagenes/iconoTwitter.jpg"
+
                 height="20" width="20"> </center>
           </div>
         </div>
