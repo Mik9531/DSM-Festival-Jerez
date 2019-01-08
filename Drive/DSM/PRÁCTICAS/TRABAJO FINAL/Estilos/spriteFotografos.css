@@ -7,21 +7,21 @@
  	list-style-type: none;
    	text-align: center;
  	display: inline;
+	
 }
 
 #sprite li a {
    float: left;
-   /*font-weight: bold; */
    text-shadow: 1px 1px 1px black; 
    color: #980000;
    text-decoration: none;
    display: inline;
    margin-left: 10px;
-   margin-bottom: 10px; 
-   font-family: 'Montserrat Alternates', sans-serif;
+   margin-bottom: 0px; 
+   font-family: Comic Sans;
    font-weight: 500;
-   font-size: 30px;
-   color: #980000;
+   font-size: 25px;
+   color: green;
 }
 
 #sprite li a:hover{
