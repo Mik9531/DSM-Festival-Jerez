@@ -1,5 +1,5 @@
 /*
- * Sprite Directores
+ * Sprite Bailarines
  */
 
 #sprite ul{
@@ -16,8 +16,8 @@
    color: #980000;
    text-decoration: none;
    display: inline;
+   margin-bottom: 10px; 
    margin-left: 10px;
-   margin-bottom: 0px; 
    font-family: Comic Sans;
    font-weight: 500;
    font-size: 25px;
@@ -30,55 +30,55 @@
 
 #sprite a{
   display: block;
-  background-image: url("../Imagenes/spriteFotografos.png");
+  background-image: url("../Imagenes/spriteBailarines.png");
   width : 218px;
   height: 222px;
 }
 
-#AnnieL{
+#ataca{
   background-position: 0 0;
 }
 
-#AnnieL:hover{
+#ataca:hover{
   background-position: -218px 0;
 }
 
-#DavidLC{
+#fabian{
   background-position: 0 -222px;
 }
 
-#DavidLC:hover{
+#fabian:hover{
   background-position: -218px -222px;
 }
 
-#JeremyC{
+#karen{
   background-position: 0 -444px;
 }
 
-#JeremyC:hover{
+#karen:hover{
   background-position: -218px -444px;
 }
 
-#MarioT{
+#mulato{
   background-position: 0 -666px;
 }
 
-#MarioT:hover{
+#mulato:hover{
   background-position: -218px -666px;
 }
 
-#MichaelK{
+#marcelo{
   background-position: 0 -888px;
 }
 
-#MichaelK:hover{
+#marcelo:hover{
   background-position: -218px -888px;
 }
 
-#SteveMc{
+#alfredo{
   background-position: 0 -1110px;
 }
 
-#SteveMc:hover{
+#alfredo:hover{
   background-position: -218px -1110px;
 }
