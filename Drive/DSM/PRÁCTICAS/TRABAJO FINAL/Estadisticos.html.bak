@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Estadisticos</title>
-   <meta content="Miguel Afán Espinosa" name="author">
+    <meta content="Miguel Afán Espinosa" name="author">
     <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
     <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
     <script src="JavaScript/Chart.min.js"></script>
@@ -34,7 +34,7 @@
       </a>
       <nav>
         <div id="cssmenu">
-         <ul>
+          <ul>
             <li><a href="Ciudad.html">Ciudad</a></li>
             <li><a href="InformacionEvento.html">Evento</a></li>
             <li><a href="Musica.html">Música</a></li>
@@ -51,7 +51,8 @@
               <canvas id="grupos" width="600" height="400"></canvas>
               <div id="leyendaFI"> </div>
               <br>
-              <aside id="critica">Premios obtenidos a nivel mundial por parejas de baile españoles</aside>
+              <aside id="critica">Premios obtenidos a nivel mundial por parejas
+                de baile españoles</aside>
               <br>
               <canvas id="Ventas" width="600" height="400"></canvas>
               <div id="leyendaFV"> </div>
@@ -68,7 +69,7 @@
           </aside>
         </div>
       </div>
-    <footer><br>
+      <footer><br>
         <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="camara"
 
               src="Imagenes/baile.gif" <="" a="" height="90" width="90"> </a>

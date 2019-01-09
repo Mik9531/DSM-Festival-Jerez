@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="es-es">
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Juego</title>
-    <meta content="María del Rosario Gómez López/María Gallegos Juliá" name="author">
+    <meta content="Miguel Afán Espinosa" name="author">
     <link href="Estilos/estilos.css" rel="stylesheet" type="text/css">
     <script src="libs/createjs-2015.11.26.min.js"></script>
     <script src="JavaScript/cuestionario.js"></script>

@@ -71,25 +71,25 @@ var datosGrupo = {
 var datosPremios = [
     {
         value: 40,
-        color:"green",
+        color:"Magenta",
         highlight: "Darkgreen",
         label: "Salsa"
     },
     {
         value: 20,
-        color:"Magenta",
+        color:"green",
         highlight: "DarkMagenta",
         label: "Lambada"
     },
     {
         value: 15,
-        color:"Yellow",
+        color:"Cyan",
         highlight: "DarkOrange",
         label: "Tango"
     },
     {
         value: 25,
-        color:"Cyan",
+        color:"Yellow",
         highlight: "DarkCyan",
         label: "Bachata"
     },

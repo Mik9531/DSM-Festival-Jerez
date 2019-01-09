@@ -8,7 +8,7 @@ var tamanio;
 /* Función que se encarga de mostrar el mensaje de bienvenida al cuestionario: */
 function inicializar(){
   stage = new createjs.Stage("escenario");
-  texto = new createjs.Text("¡Bienvenido al juego!", "34px Century", "black");
+  texto = new createjs.Text("¡ADIVINA EL ESTILO MUSICAL!", "38px Century", "black");
   tamanio = texto.getBounds();
   texto.x = stage.canvas.width/2 - tamanio.width/2;
   texto.y = stage.canvas.height/2 - tamanio.height/2;
@@ -18,6 +18,7 @@ function inicializar(){
   texto.addEventListener("click", firstQuestion);
   stage.addChild(texto);
   stage.update();
+  
 }
 
 function firstQuestion(event){
@@ -25,6 +26,7 @@ function firstQuestion(event){
 	console.log('Aviso consola: Has pulsado');
 	stage.enableMouseOver(0);
 	texto.removeEventListener("click", firstQuestion);
+	
 	pregunta1();
 	
 }
@@ -91,13 +93,14 @@ function pregunta1(event){
   grupo = new createjs.Container();
   
   grupo.name = 'fotos';
-  texto1 = new createjs.Text("1. ¿Cuál de estas fotografías pertenece al estilo fotográfico de retrato?", "14px Century", "black");
+  texto1 = new createjs.Text("1. ¿Cuál de estas fotografías pertenece al estilo de baile de salsa?", "14px Century", "black");
+  
   tamanio = texto1.getBounds();
   texto1.x = stage.canvas.width/2 - tamanio.width/2;
   texto1.y = stage.canvas.height/10 - tamanio.height/2;
   
   imagen1 = new Image();
-  imagen1.src = "Imagenes/Juego/Kryptoni.jpg";
+  imagen1.src = "Imagenes/Juego/tango.jpg";
   
   imagen1.onload = function()
   {
@@ -112,7 +115,7 @@ function pregunta1(event){
   }
   
   imagen2 = new Image();
-  imagen2.src = "Imagenes/Juego/Pool.jpg";
+  imagen2.src = "Imagenes/Juego/merengue.jpg";
   
   imagen2.onload = function()
   {
@@ -127,7 +130,7 @@ function pregunta1(event){
   }
   
   imagen3 = new Image();
-  imagen3.src = "Imagenes/Juego/MujeresSinEstado.jpg";
+  imagen3.src = "Imagenes/Juego/salsa.jpg";
   
   imagen3.onload = function()
   {
@@ -141,7 +144,7 @@ function pregunta1(event){
     stage.update();
   }
   imagen4 = new Image();
-  imagen4.src = "Imagenes/Juego/UnderwaterGrace.jpg";
+  imagen4.src = "Imagenes/Juego/bachata.jpg";
   
   imagen4.onload = function()
   {
@@ -168,13 +171,13 @@ function pregunta2(event){
   grupo = new createjs.Container();
   
   grupo.name = 'fotos';
-  texto1 = new createjs.Text("2. ¿Cuál de estas fotografías pertenece al estilo fotográfico de paisaje?", "14px Century", "black");
+  texto1 = new createjs.Text("2. ¿Cuál de estas fotografías pertenece al estilo de baile de tango", "14px Century", "black");
   tamanio = texto1.getBounds();
   texto1.x = stage.canvas.width/2 - tamanio.width/2;
   texto1.y = stage.canvas.height/10 - tamanio.height/2;
   
   imagen1 = new Image();
-  imagen1.src = "Imagenes/Juego/Kryptoni.jpg";
+  imagen1.src = "Imagenes/Juego/tango.jpg";
   
   imagen1.onload = function()
   {
@@ -189,7 +192,7 @@ function pregunta2(event){
   }
   
   imagen2 = new Image();
-  imagen2.src = "Imagenes/Juego/Pool.jpg";
+  imagen2.src = "Imagenes/Juego/merengue.jpg";
   
   imagen2.onload = function()
   {
@@ -204,7 +207,7 @@ function pregunta2(event){
   }
   
   imagen3 = new Image();
-  imagen3.src = "Imagenes/Juego/MujeresSinEstado.jpg";
+  imagen3.src = "Imagenes/Juego/salsa.jpg";
   
   imagen3.onload = function()
   {
@@ -218,7 +221,7 @@ function pregunta2(event){
     stage.update();
   }
   imagen4 = new Image();
-  imagen4.src = "Imagenes/Juego/UnderwaterGrace.jpg";
+  imagen4.src = "Imagenes/Juego/bachata.jpg";
   
   imagen4.onload = function()
   {
@@ -246,13 +249,13 @@ function pregunta3(event){
   grupo = new createjs.Container();
   
   grupo.name = 'fotos';
-  texto1 = new createjs.Text("3. ¿Cuál de estas fotografías pertenece al estilo fotográfico de reportaje?", "14px Century", "black");
+  texto1 = new createjs.Text("3. ¿Cuál de estas fotografías pertenece al estilo de baile de bachata?", "14px Century", "black");
   tamanio = texto1.getBounds();
   texto1.x = stage.canvas.width/2 - tamanio.width/2;
   texto1.y = stage.canvas.height/10 - tamanio.height/2;
   
   imagen1 = new Image();
-  imagen1.src = "Imagenes/Juego/Kryptoni.jpg";
+  imagen1.src = "Imagenes/Juego/tango.jpg";
   
   imagen1.onload = function()
   {
@@ -267,7 +270,7 @@ function pregunta3(event){
   }
   
   imagen2 = new Image();
-  imagen2.src = "Imagenes/Juego/Pool.jpg";
+  imagen2.src = "Imagenes/Juego/merengue.jpg";
   
   imagen2.onload = function()
   {
@@ -282,7 +285,7 @@ function pregunta3(event){
   }
   
   imagen3 = new Image();
-  imagen3.src = "Imagenes/Juego/MujeresSinEstado.jpg";
+  imagen3.src = "Imagenes/Juego/salsa.jpg";
   
   imagen3.onload = function()
   {
@@ -296,7 +299,7 @@ function pregunta3(event){
     stage.update();
   }
   imagen4 = new Image();
-  imagen4.src = "Imagenes/Juego/UnderwaterGrace.jpg";
+  imagen4.src = "Imagenes/Juego/bachata.jpg";
   
   imagen4.onload = function()
   {
@@ -324,13 +327,13 @@ function pregunta4(event){
   grupo = new createjs.Container();
   
   grupo.name = 'fotos';
-  texto1 = new createjs.Text("4. ¿Cuál de estas fotografías pertenece al estilo fotográfico de arquitectura?", "14px Century", "black");
+  texto1 = new createjs.Text("4. ¿Cuál de estas fotografías pertenece al estilo de baile de Merengue?", "14px Century", "black");
   tamanio = texto1.getBounds();
   texto1.x = stage.canvas.width/2 - tamanio.width/2;
   texto1.y = stage.canvas.height/10 - tamanio.height/2;
   
   imagen1 = new Image();
-  imagen1.src = "Imagenes/Juego/Kryptoni.jpg";
+  imagen1.src = "Imagenes/Juego/tango.jpg";
   
   imagen1.onload = function()
   {
@@ -345,7 +348,7 @@ function pregunta4(event){
   }
   
   imagen2 = new Image();
-  imagen2.src = "Imagenes/Juego/Pool.jpg";
+  imagen2.src = "Imagenes/Juego/merengue.jpg";
   
   imagen2.onload = function()
   {
@@ -360,7 +363,7 @@ function pregunta4(event){
   }
   
   imagen3 = new Image();
-  imagen3.src = "Imagenes/Juego/MujeresSinEstado.jpg";
+  imagen3.src = "Imagenes/Juego/salsa.jpg";
   
   imagen3.onload = function()
   {
@@ -374,7 +377,7 @@ function pregunta4(event){
     stage.update();
   }
   imagen4 = new Image();
-  imagen4.src = "Imagenes/Juego/UnderwaterGrace.jpg";
+  imagen4.src = "Imagenes/Juego/bachata.jpg";
   
   imagen4.onload = function()
   {
