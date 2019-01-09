@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Tango</title>
+    <meta content="Miguel Afán Espinosa" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px Comic Sans black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "white"; 
+					  ctx.fillText('IV FESTIVAL INTERNACIONAL DE BAILES LATINOS CIUDAD DE JEREZ', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Evento</a></li>
+            <li><a href="Musica.html">Música</a></li>
+            <li><a href="Bailarines.html">Bailarines</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section> <br>
+            <br>
+            <section class="container_12">
+              <article class="grid_5">
+                <div class="grid_7 omega"><img alt="salsa" src="Imagenes/Fotografias/tango.jpg"
+
+                    height="250" width="300"></div>
+                <span style="color: black;"> </span></article>
+              <br>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="tituloTabla">Periodo contemporáneo:</td>
+                    <td>1970</td>
+                  </tr>
+                  <tr>
+                    <td class="tituloTabla">Origen:</td>
+                    <td>Argentina y Uruguay</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <br>
+            <aside id="critica">Descripción</aside>
+            <br>
+            El tango es un género musical y una danza, característica de la región del Río de la Plata y su zona de influencia, principalmente de las ciudades de Buenos Aires (en Argentina) 
+            y Montevideo (en Uruguay). 
+            <br><br><br>
+            Distintas investigaciones señalan seis estilos musicales principales que dejaron su impronta en el tango: el tango andaluz, la habanera cubana, el candombe, la milonga, la mazurca y la polka europea.
+            El tango revolucionó el baile popular introduciendo una danza sensual con pareja abrazada que propone una profunda relación emocional de cada persona con su propio cuerpo y de los cuerpos de los 
+            bailarines entre sí.<br>
+            <br>
+            <br class="clear">
+          </section>
+          <aside id="submenu">
+            <ul>
+              <li><a href="salsa.html">Salsa</a></li>
+              <li><a href="tango.html">Tango</a></li>
+              <li><a href="bachata.html">Bachata</a></li>
+            </ul>
+            <a class="twitter-timeline" width="200" height="400" href="https://twitter.com/FestivalIntern8">Siguenos
+              en Twitter</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </aside>
+        </div>
+      </div>
+      <footer><br>
+        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="camara"
+
+              src="Imagenes/baile.gif" <="" a="" height="90" width="90"> </a>
+          <div id="redesSociales2"><a style="float:right; padding: 8px"> </a><a
+
+              style="float:left; padding: 8px"> <img alt="camara" src="Imagenes/baile.gif"
+
+                <="" a="" height="90" width="90"> </a>
+            <center>
+              <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+                nosotros: FestivalInternacionalLatino@gmail.com</p>
+              <br>
+              <a style="color: white;" href="https://twitter.com/festivaljerez"
+
+                id="Siguenos">Síguenos en Twitter</a> <img src="Imagenes/iconoTwitter.jpg"
+
+                height="20" width="20"> </center>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

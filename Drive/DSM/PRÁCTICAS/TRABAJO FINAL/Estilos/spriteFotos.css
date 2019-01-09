@@ -35,34 +35,34 @@
   height: 660px;
 }
 
-#arquitectura{
+#salsa{
   background-position: 0 0;
 }
 
-#arquitectura:hover{
+#salsa:hover{
   background-position: -990px 0;
 }
 
-#reportaje{
+#mana{
   background-position: 0 -660px;
 }
 
-#reportaje:hover{
+#mana:hover{
   background-position: -990px -660px;
 }
 
-#retrato{
+#cafe{
   background-position:  0 -1320px;
 }
 
-#retrato:hover{
+#cafe:hover{
   background-position: -990px -1320px;
 }
 
-#paisaje{
+#morat{
   background-position: 0 -1980px;
 }
 
-#paisaje:hover{
+#morat:hover{
   background-position: -990px -1980px;
 }
