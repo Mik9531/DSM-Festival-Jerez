@@ -108,7 +108,7 @@
 
                     src="Imagenes/Gastronomia/tiopepe.jpg"> </div>
               </div>
-              
+              <br>
               <p> En muchas de nuestras recetas no falta el vino. Como existen
                 muchas variedades, normalmente para cada receta hay un vino
                 ideal, por lo que es otro de los indispensables en la
@@ -137,12 +137,12 @@
         </div>
       </div>
       <footer>
-        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="baile"
+        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="camara"
 
               src="Imagenes/baile.gif" <="" a="" height="90" width="90"> </a>
           <div id="redesSociales2"><a style="float:right; padding: 8px"> </a><a
 
-              style="float:left; padding: 8px"> <img alt="baile" src="Imagenes/baile.gif"
+              style="float:left; padding: 8px"> <img alt="camara" src="Imagenes/baile.gif"
 
                 <="" a="" height="90" width="90"> </a>
             <center><br>

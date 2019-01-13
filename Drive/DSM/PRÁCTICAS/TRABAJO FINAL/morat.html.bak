@@ -2,14 +2,15 @@
 <html lang="es-es">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Alfredo y Andrea</title>
+    <title>Morat</title>
     <meta content="Miguel Afán Espinosa" name="author">
     <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
     <link href="Estilos/GaleriaGastronomia.css" rel="stylesheet" type="text/css">
     <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
     <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
-    type="text/css">
+
+      type="text/css">
   </head>
   <body>
     <div id="pagina"> <a href="Home.html">
@@ -22,7 +23,7 @@
 					  var x = 650;
 					  var y = 50;
 
-					   ctx.font = 'bold 30px Comic Sans black';
+					  ctx.font = 'bold 30px Comic Sans black';
 					  ctx.textAlign = 'center';
 					  ctx.textBaseline = 'middle';
 					  ctx.fillStyle = "white"; 
@@ -45,21 +46,26 @@
           <section> <br>
             <br>
             <span style="color: black;">
-              <aside id="critica">Alfredo y Andrea<br><br>
-                </aside>
-              Alfredo Alarcón, director de Sabor dinámico, acompañado de Andrea
-              Gurgenidze son bailarines internacionales con un triunfo muy
-              actual en el World Bachata Master. Hace unos meses, febrero del
-              2016, en el congreso Bachatea Madrid, esta pareja consiguió el
-              título de campeones en el concurso de World Bachata Master 2016.
-              En la sección de vídeos podéis ver su maravillosa actuación.
-              Además no son los únicos títulos que han conseguido, a
-              continuación citamos algunos de sus éxitos. - Campeones del mundo
-              de bachata en grupo (Ases de la Bachata) world bachata masters
-              2014 - Campeones de Europa en pareja, Europe bachata masters 2015
-              - Subcampeones del mundo de bachata, world bachata masters 2013 -
-              Subcampeones de Europa, bachataopen 2012 - Subcampeones de España
-              de salsa, mambo swing 2013.<br>
+              <aside id="critica">Morat</aside>
+              <br>
+            Morat es una banda colombiana de pop latino y folk-pop formada en Bogotá. Sus integrantes son Juan Pablo Isaza (guitarras y voz), 
+              Juan Pablo Villamil (banjo y voz) y los hermanos Simón Vargas (bajo y coros) y Martín Vargas (percusión y coros). Anteriormente, 
+              hasta finales de 2016 había formado parte de la banda el baterista Alejandro Posada, Pero el percusionista decidió dejar el proyecto, 
+              para proteger las cosas que consideraba muy importantes y dedicarse a la arquitectura. Alejandro Posada fue sustituido por Martin Vargas Morales, hermano de Simón Vargas.
+              La banda ha logrado consolidarse gracias a su talento como una de las bandas más conocidas de la actualidad, dentro de las bandas del pop latino.
+							<br>
+              <br>
+            Los integrantes de Morat se conocen desde los 5 años de edad, todos estudiaban juntos en el Gimnasio La Montaña en Bogotá, 
+              y algunos de ellos en la Universidad de los Andes.
+              Comenzaron tocando juntos en varias ocasiones y cuando terminaron su formación tomaron la decisión de crear una banda. Algunas de sus influencias musicales son Joaquín Sabina,
+              Eric Clapton y Bacilos.
+              Comenzaron a destacar internacionalmente en el año 2015, cuando su sencillo "Mi nuevo vicio" salió a luz con la colaboración de Paulina Rubio.
+              Con él, Morat consiguió Disco de Platino Digital, un número 1 de Ventas Digitales en España, y un número 1 en Air Play en México. Al mismo tiempo, 
+              se lanzó un tema titulado "Cuánto me duele" en dos versiones, una en el estudio y otra acústica,con la producción de Mauricio Rengifo (Dandee), 
+              de la cual la versión acústica está incluida en el EP "Grabado en madera". A finales de 2015 se presenta un nuevo sencillo llamado "Cómo te atreves",
+              que alcanza el número 1 en iTunes y les lleva a la fama en España.
+
+              Medio.<br>
               <br class="clear">
               <br>
               <section>
@@ -67,57 +73,52 @@
                   <article class="grid_7">
                     <div class="grid_9 omega">
                       <div id="galeriaGastronomia">
-                        <div id="galeria_imagen"> <img id="imgGaleria" src="Imagenes/Bailarines/alfredo1.jpg"></div>
+                        <div id="galeria_imagen"> <img id="imgGaleria" src="Imagenes/Fotografias/morat1.jpg"></div>
                         <div id="galeria_miniaturas"> <img class="miniatura" onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
 
-                            src="Imagenes/Bailarines/alfredo2.jpg"> <img class="miniatura"
+                            src="Imagenes/Fotografias/morat2.jpg"> <img class="miniatura"
 
                             onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
 
-                            src="Imagenes/Bailarines/alfredo3.jpg"> <img class="miniatura"
+                            src="Imagenes/Fotografias/morat3.jpg"> <img class="miniatura"
 
                             onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
 
-                            src="Imagenes/Bailarines/alfredo4.jpg"> <img class="miniatura"
+                            src="Imagenes/Fotografias/morat4.jpg"> <img class="miniatura"
 
                             onclick="javascript:document.getElementById('imgGaleria').src=this.src;"
 
-                            src="Imagenes/Bailarines/alfredo5.jpg"> </div>
+                            src="Imagenes/Fotografias/morat5.jpg"> </div>
                       </div>
                       <span style="color: black;"> </span></div>
                   </article>
                   <br>
-                  <aside id="critica">PREMIOS</aside>
+                  <aside id="critica">Discografía</aside>
                   <br>
                   <table>
                     <tbody>
-                      <tr>
-                        <td class="tituloTabla">Año 2014:</td>
-                        <td>Campeones del mundo de bachata</td>
+                       <tr>
+                        <td class="tituloTabla">2018:</td>
+                        <td>Balas perdidas</td>
                       </tr>
                       <tr>
-                        <td class="tituloTabla">Año 2015:</td>
-                        <td>Campeones de Europa</td>
+                        <td class="tituloTabla">2015:</td>
+                        <td>Grabado en Madera</td>
                       </tr>
-                      <tr>
-                        <td class="tituloTabla">Año 2016:</td>
-                        <td>Actuales campeones del mundo</td>
-                      </tr>
-                    </tbody>
+                     </tbody>
                   </table>
-                  <br class="clear">
                 </section>
               </section>
             </span></section>
         </div>
       </div>
       <footer><br>
-        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="baile"
+        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="camara"
 
               src="Imagenes/baile.gif" <="" a="" height="90" width="90"> </a>
           <div id="redesSociales2"><a style="float:right; padding: 8px"> </a><a
 
-              style="float:left; padding: 8px"> <img alt="baile" src="Imagenes/baile.gif"
+              style="float:left; padding: 8px"> <img alt="camara" src="Imagenes/baile.gif"
 
                 <="" a="" height="90" width="90"> </a>
             <center>

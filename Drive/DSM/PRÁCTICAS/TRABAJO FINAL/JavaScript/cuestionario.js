@@ -5,7 +5,7 @@ var tamanio;
 
 
 
-/* Función que se encarga de mostrar el mensaje de bienvenida al cuestionario: */
+
 function inicializar(){
   stage = new createjs.Stage("escenario");
   texto = new createjs.Text("¡ADIVINA EL ESTILO MUSICAL!", "38px Century", "black");

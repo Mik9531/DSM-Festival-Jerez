@@ -2,19 +2,16 @@
 <html lang="es-es">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Estadísticos</title>
+    <title>Música</title>
     <meta content="Miguel Afán Espinosa" name="author">
     <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
-    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
-    <script src="JavaScript/Chart.min.js"></script>
-    <script src="JavaScript/legend.js"></script>
-    <script src="JavaScript/misgraficos.js"></script>
-    <link href="Estilos/leyendas.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/spriteFotos.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
-
-      type="text/css">
+    type="text/css">
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
   </head>
-  <body onload="dibujar()">
+  <body>
     <div id="pagina"> <a href="Home.html">
         <header> <canvas id="titulo" width="1300" height="100">
             <p>Su navegador no soporta HTML5</p>
@@ -44,29 +41,17 @@
         </div>
       </nav>
       <div id="CuadroPagina">
-        <div id="contenidos">
-          <section>
-            <article>
-              <aside id="critica">Grupos músicales por el mundo en 2018</aside>
-              <canvas id="grupos" width="600" height="400"></canvas>
-              <div id="leyendaFI"> </div>
-              <br>
-              <aside id="critica">Premios obtenidos a nivel mundial por parejas
-                de baile españoles en 2018</aside>
-              <br>
-              <canvas id="Premios" width="600" height="400"></canvas>
-              <div id="leyendaFV"> </div>
-            </article>
-          </section>
-          <aside id="submenu">
+        <div class="container_12">
+          <section id="sprite" class="grid_12">
             <ul>
-              <li><a href="Estadisticos.html">Estadísticas</a></li>
-              <li><a href="Juego.html">Juego</a></li>
+              <li><a id="salsa" href="salsa.html">Estilos</a></li>
+              <li><a id="mana" href="cafe.html">Café Quijano</a></li>
             </ul>
-            <a class="twitter-timeline" width="200" height="400" href="https://twitter.com/FestivalIntern8">Twitter
-              oficial</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </aside>
+            <ul>
+              <li><a id="cafe" href="mana.html">Maná</a></li>
+              <li><a id="morat" href="morat.html">Morat</a></li>
+            </ul>
+          </section>
         </div>
       </div>
       <footer><br>
@@ -82,7 +67,7 @@
               <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
                 nosotros: FestivalInternacionalLatino@gmail.com</p>
               <br>
-              <a style="color: white;" href="https://twitter.com/FestivalIntern8"
+              <a style="color: white;" href="https://twitter.com/festivaljerez"
 
                 id="Siguenos">Síguenos en Twitter</a> <img src="Imagenes/iconoTwitter.jpg"
 

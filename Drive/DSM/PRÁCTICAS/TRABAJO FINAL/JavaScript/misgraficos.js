@@ -1,4 +1,4 @@
-/* Gráficos */
+
 
 function dibujar(){
     var ctx1 = document.getElementById("grupos").getContext("2d");
@@ -6,10 +6,10 @@ function dibujar(){
 
     legend(document.getElementById("leyendaFI"), datosGrupo);
 
-    var ctx2 = document.getElementById("Ventas").getContext("2d");
-    var miGraficoVentas = new Chart(ctx2).Pie(datosPremios,opcionesPremios);
+    var ctx2 = document.getElementById("Premios").getContext("2d");
+    var miGraficoPremios = new Chart(ctx2).Pie(datosPremios,opcionesPremios);
     
-    legend(document.getElementById("leyendaFV"), datosVentas);
+    legend(document.getElementById("leyendaFV"), datosPremios);
 }
 
 var datosGrupo = {
@@ -79,13 +79,13 @@ var datosPremios = [
         value: 20,
         color:"green",
         highlight: "DarkMagenta",
-        label: "Lambada"
+        label: "Tango"
     },
     {
         value: 15,
         color:"Cyan",
         highlight: "DarkOrange",
-        label: "Tango"
+        label: "Lambada"
     },
     {
         value: 25,
@@ -97,72 +97,71 @@ var datosPremios = [
 
 var opcionesGrupo = {
 
-    //Boolean - Whether grid lines are shown across the chart
+   
     scaleShowGridLines : true,
 
-    //String - Colour of the grid lines
+  
     scaleGridLineColor : "lightgrey",
 
-    //Number - Width of the grid lines
+  
     scaleGridLineWidth : 1,
 
-    //Boolean - Whether to show horizontal lines (except X axis)
+   
     scaleShowHorizontalLines: true,
 
-    //Boolean - Whether to show vertical lines (except Y axis)
+  
     scaleShowVerticalLines: false,
 
-    //Boolean - Whether the line is curved between points
+  
     bezierCurve : false,
 
-    //Number - Tension of the bezier curve between points
+ 
     bezierCurveTension : 0.4,
 
-    //Boolean - Whether to show a dot for each point
+  
     pointDot : true,
 
-    //Number - Radius of each point dot in pixels
+   
     pointDotRadius : 4,
 
-    //Number - Pixel width of point dot stroke
+   
     pointDotStrokeWidth : 1,
 
-    //Number - amount extra to add to the radius to cater for hit detection outside the drawn point
+   
     pointHitDetectionRadius : 20,
 
-    //Boolean - Whether to show a stroke for datasets
+  
     datasetStroke : true,
 
-    //Number - Pixel width of dataset stroke
+  
     datasetStrokeWidth : 2,
 
-    //Boolean - Whether to fill the dataset with a colour
+  
     datasetFill : true,
 
-    //String - A legend template
+  
     legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
 
 };
 
 var opcionesPremios ={
-    //Lógico: ¿Mostrar el contorno de los segmentos?
+   
     segmentShowStroke : true,
-    //Color CSS: Color del contorno de los segmentos
+  
     segmentStrokeColor : "black",
-    //Número: Grosor del contorno de los segmentos
+   
     segmentStrokeWidth : 2,
-    //Número: Porcentaje del radio interno
+    
     percentageInnerCutout : 0,
-    //Número: Nº Frames de la animación
+    
     animationSteps : 40,
-    //Cadena: Efecto de la animación
+   
     animationEasing : "easeOutBounce",
-    //Lógico: ¿Animación de rotación?
+   
     animateRotate : true,
-    //Lógico: ¿Animación de escalado desde el centro?
+   
     animateScale : true,
-    //Código: Plantilla de la leyenda
+  
     legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<segments.length; i++){%><li><span style=\"background-color:<%=segments[i].fillColor%>\"></span><%if(segments[i].label){%><%=segments[i].label%><%}%></li><%}%></ul>"
 };
 
-//Chart.defaults.global.responsive = true;
