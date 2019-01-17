@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>El Mulato</title>
+    <meta content="Miguel Afán Espinosa" name="author">
+    <link rel="icon" type="imagenes/png" href="imagenes/IconoNavegador.png">
+    <link href="Estilos/video.css" rel="stylesheet" type="text/css">
+    <script src="JavaScript/video.js" type="application/x-javascript"></script>
+    <link href="Estilos/MiEstilo.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/rejilla960fluido.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet"
+      type="text/css">
+  </head>
+  <body>
+    <div id="pagina"> <a href="Home.html">
+        <header> <canvas id="titulo" width="1300" height="100">
+            <p>Su navegador no soporta HTML5</p>
+          </canvas>
+          <script>
+					  var canvas=document.getElementById('titulo');
+					  var ctx=canvas.getContext('2d');
+					  var x = 650;
+					  var y = 50;
+
+					  ctx.font = 'bold 30px Comic Sans black';
+					  ctx.textAlign = 'center';
+					  ctx.textBaseline = 'middle';
+					  ctx.fillStyle = "white"; 
+					  ctx.fillText('IV FESTIVAL INTERNACIONAL DE BAILES LATINOS CIUDAD DE JEREZ', x, y);
+					</script> </header>
+      </a>
+      <nav>
+        <div id="cssmenu">
+          <ul>
+            <li><a href="Ciudad.html">Ciudad</a></li>
+            <li><a href="InformacionEvento.html">Evento</a></li>
+            <li><a href="Musica.html">Música</a></li>
+            <li><a href="Bailarines.html">Bailarines</a></li>
+            <li><a class="last" href="Galeria.html">Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="CuadroPagina">
+        <div id="contenidos">
+          <section> <br>
+            <br>
+            <span style="color: black;">
+              <aside id="critica">El Mulato</aside>
+              <br>
+              Luis Eduardo Hernández, más conocido como El Mulato, es a la
+              historia del baile de salsa en Cali, lo que Jairo Varela, fundador
+              del grupo Niche, es a la música. Con la escuela Swing Latino ha
+              sido cinco veces campeón del mundo, dos años en forma consecutiva
+              en el congreso mundial organizado por Albert Torres, primero en
+              Las Vegas y luego en Orlando, Florida. Es el rey de los bailarines
+              de la nueva generación que ha conocido el éxito internacional.<br>
+              <br class="clear">
+              <br>
+              <article id="piel"> <video preload="" id="miPelicula" height="352"
+                  width="500"> <source src="Videos/mulato.mp4"> Tu explorador
+                  no soporta video </video>
+                <nav>
+                  <div id="botones"> <img id="botonPlay" src="Imagenes/play.png">
+                    <img id="botonStop" src="Imagenes/stop.png"> <img alt="Audio"
+                      id="botonAudioSi" src="Imagenes/audiosi.png"> </div>
+                  <div id="barra">
+                    <div id="barraProgreso"> </div>
+                  </div>
+                </nav>
+              </article>
+            </span></section>
+        </div>
+      </div>
+      <footer><br>
+        <div id="redesSociales1"> <a style="float:right; padding: 8px"> <img alt="baile"
+              src="Imagenes/baile.gif" <="" a="" height="90" width="90"> </a>
+          <div id="redesSociales2"><a style="float:right; padding: 8px"> </a><a
+              style="float:left; padding: 8px"> <img alt="baile" src="Imagenes/baile.gif"
+                <="" a="" height="90" width="90"> </a>
+            <center>
+              <p style="color:#FFFFFF;  font-size: 14px; ">Para contactar con
+                nosotros: FestivalInternacionalLatino@gmail.com</p>
+              <br>
+              <a style="color: white;" href="https://twitter.com/FestivalIntern8"
+                id="Siguenos">Síguenos en Twitter</a> <img src="Imagenes/iconoTwitter.jpg"
+                height="20" width="20"> </center>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
